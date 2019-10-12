@@ -7,7 +7,7 @@ The question is why do we need Machine Learning over the conventional Logical Pr
 To answer the above question let us consider some limitations of Logical Programming.<br>
 - We cannot program a computer to perform Natural tasks because in real life there are just too many variables to consider.<br>
 e.g.:- Let us consider the problem of Handwriting Recognition,<br>
-![Japanese Handwritten Characters](/home/kushagra/Desktop/ML_Models_for_Git/images/handwriting.jpg)
+![Japanese Handwritten Characters](https://github.com/kushagra414/Machine-Learning-Models/blob/master/images/handwriting.jpg)
 Every individual has their way of writing. The handwriting of a person may differ from others significantly, even if we try to hardwire the program it will lead to very poor performance.<br>
 - We did not know how to code a computer to perform Natural tasks.<br>
 - Poor Performance<br>
@@ -60,14 +60,14 @@ __About Dataset__ -<br>
   2. profit in $10,000s<br>
 - The dataset is available in .txt file<br>
 
-![Train Data](/home/kushagra/Desktop/ML_Models_for_Git/images/data_lr.png)<br>
+![Train Data](https://github.com/kushagra414/Machine-Learning-Models/blob/master/images/data_lr.png)<br>
 
 - We used linear Regression with Gradient Descent to find the plane/line that minimizes the  squared error cost function on train data.
-![Linear Regression](images/linear_regression.png)
+![Linear Regression](https://github.com/kushagra414/Machine-Learning-Models/blob/master/images/linear_regression.png)
 
 - Error Reduction with Weights visualization, Contour Plot.
-![Cost Function](images/contour_of_cost.png)
-**Note : To know more refer to this PDF [Exercise 1.pdf](pdfs/ex1.pdf)**
+![Cost Function](https://github.com/kushagra414/Machine-Learning-Models/blob/master/images/contour_of_cost.png)<br>
+**Note : To know more refer to this PDF [Exercise 1.pdf](https://github.com/kushagra414/Machine-Learning-Models/blob/master/pdfs/ex1.pdf)**
 
 ___
 
@@ -82,11 +82,11 @@ ___
   3. Whether the applicant was Admitted in University or not.(as 0 and 1).
 - The dataset is available in .txt file<br>
 
-![Train Data](images/admission_data.png)<br>
+![Train Data](https://github.com/kushagra414/Machine-Learning-Models/blob/master/images/admission_data.png)<br>
 
 - We used logistic regression with Gradient Descent to find the plane/line that minimizes the squared error cost function on train data.<br>
-![Logistic Regression](images/logistic_regression.png)
-**Note : To know more refer to this PDF [Exercise 2.pdf](pdfs/ex2.pdf)**
+![Logistic Regression](https://github.com/kushagra414/Machine-Learning-Models/blob/master/images/logistic_regression.png)<br>
+**Note : To know more refer to this PDF [Exercise 2.pdf](https://github.com/kushagra414/Machine-Learning-Models/blob/master/pdfs/ex2.pdf)**
 
 
 
@@ -100,11 +100,11 @@ ___
 - Each pixel represents an attribute.<br>
 - The dataset is available in .mat file which can be easily loaded in MATLAB/Octave environment<br>
 
-![Train Data](images/handwritten_numbers.png)<br>
+![Train Data](https://github.com/kushagra414/Machine-Learning-Models/blob/master/images/handwritten_numbers.png)<br>
 1. First, We will use Logistic Regression(OneVsAll) to classify the Handwritten Images.
 2. We will Neural Network with 3 Layers to classify the handwritten images while only using feedforward propagation.<br>
-![Neural Network Architecture](images/neural_network_architechture.png)
-**Note : To know more refer to this PDF [Exercise 3.pdf](pdfs/ex3.pdf)**
+![Neural Network Architecture](https://github.com/kushagra414/Machine-Learning-Models/blob/master/images/neural_network_architechture.png)<br>
+**Note : To know more refer to this PDF [Exercise 3.pdf](https://github.com/kushagra414/Machine-Learning-Models/blob/master/pdfs/ex3.pdf)**
 
 
 ___
@@ -117,10 +117,10 @@ ___
 - Each pixel represents an attribute.<br>
 - The dataset is available in .mat file which can be easily loaded in MATLAB/Octave environment<br>
 
-![Train Data](images/handwritten_numbers.png)<br>
+![Train Data](https://github.com/kushagra414/Machine-Learning-Models/blob/master/images/handwritten_numbers.png)<br>
 - We will Neural Network with 3 Layers to classify the handwritten images while only using feedforward propagation with backpropagation algorithm to learn the parameters for the neural network and improve its performance.<br>
-![Backpropagation Algorithm](images/backprop_algorithm.png)
-**Note : To know more refer to this PDF [Exercise 4.pdf](pdfs/ex4.pdf)**
+![Backpropagation Algorithm](https://github.com/kushagra414/Machine-Learning-Models/blob/master/images/backprop_algorithm.png)<br>
+**Note : To know more refer to this PDF [Exercise 4.pdf](https://github.com/kushagra414/Machine-Learning-Models/blob/master/pdfs/ex4.pdf)**
 
 
 ___
@@ -135,19 +135,19 @@ ___
   2. amount of water flowing out of a dam.<br>
 - The dataset is available in .mat file which can be easily loaded in MATLAB/Octave environment<br>
 
-![](images/water_data.png)
+![Water Data](https://github.com/kushagra414/Machine-Learning-Models/blob/master/images/water_data.png)
 1. First we will try to fit linear regression to our data.
-    ![Underfit](images/underfit_lr.png)
-    ![Train and CV Error](images/train_cv_curve.png)
+    ![Underfit](https://github.com/kushagra414/Machine-Learning-Models/blob/master/images/underfit_lr.png)
+    ![Train and CV Error](https://github.com/kushagra414/Machine-Learning-Models/blob/master/images/train_cv_curve.png)
     As we can see Linear Regression is Underfitting the data, hence we need to increase number of features.
 2. Now we will try improving our model by creating Polynomial features.
-    ![Adding Polynomial Features](images/polynomial_features.png)
+    ![Adding Polynomial Features](https://github.com/kushagra414/Machine-Learning-Models/blob/master/images/polynomial_features.png)
     - After adding Polynomial Features.
-    ![Polynomial Regression](images/Polynomial_regression.png)
-    ![Overfitting](images/overfitting_poly_reg.png)
+    ![Polynomial Regression](https://github.com/kushagra414/Machine-Learning-Models/blob/master/images/Polynomial_regression.png)
+    ![Overfitting](https://github.com/kushagra414/Machine-Learning-Models/blob/master/images/overfitting_poly_reg.png)
     - As we can see now we are overfitting our model, hence we need to add regularization(λ) term to prevent this.
     - We can select hyperparameter λ by iterating over many λ values and selecting the one where cross validation error is minimum.<br>
-**Note : To know more refer to this PDF [Exercise 5.pdf](pdfs/ex5.pdf)**
+**Note : To know more refer to this PDF [Exercise 5.pdf](https://github.com/kushagra414/Machine-Learning-Models/blob/master/pdfs/ex5.pdf)**
 
 
 ___
@@ -180,10 +180,10 @@ moved. All white spaces (tabs, newlines, spaces) have all been trimmed
 to a single space character.<br>
 
 An example of a sample email -
-![Example](images/email_example.png)
+![Example](https://github.com/kushagra414/Machine-Learning-Models/blob/master/images/email_example.png)
 
-- Then we will train the SVM on numeric Vectors we created using clean text.
-**Note : To know more refer to this PDF [Exercise 6.pdf](pdfs/ex6.pdf)**
+- Then we will train the SVM on numeric Vectors we created using clean text.<br>
+**Note : To know more refer to this PDF [Exercise 6.pdf](https://github.com/kushagra414/Machine-Learning-Models/blob/master/pdfs/ex6.pdf)**
 
 
 ___
@@ -194,21 +194,21 @@ ___
 - Steps in k-means Algorithm
     - Randomly select centroid
     - Move the centroid towards mean of it's clustered points.
-  ![Steps in k-means](images/k-means_algo.png)
+  ![Steps in k-means](https://github.com/kushagra414/Machine-Learning-Models/blob/master/images/k-means_algo.png)
 - Image Compression using k-means clustering algorithm.
-  ![Compressed Image](images/compressed_image.png)
+  ![Compressed Image](https://github.com/kushagra414/Machine-Learning-Models/blob/master/images/compressed_image.png)
 - Principle Component Analysis(PCA) Algorithm is used to decrease the dimensions/feature of the data so that we can visualize the data in 2-D or to decrease feature for faster computation.
 - Visualizing Data
-  ![Plotting Data](images/pca_data.png)
+  ![Plotting Data](https://github.com/kushagra414/Machine-Learning-Models/blob/master/images/pca_data.png)
 - Plotting Principle Component
-  ![Principle Component](images/pca_algo.png)
+  ![Principle Component](https://github.com/kushagra414/Machine-Learning-Models/blob/master/images/pca_algo.png)
 - Data points Projected on Principle ComponentVisualization
-  ![Projected Points](images/after_pca.png)
+  ![Projected Points](https://github.com/kushagra414/Machine-Learning-Models/blob/master/images/after_pca.png)
 - Face Dataset before PCA, there are 1024 feature(each image is 32x32 pixels)
-  ![Face Dataset](images/face_dataset.png)
+  ![Face Dataset](https://github.com/kushagra414/Machine-Learning-Models/blob/master/images/face_dataset.png)
 - After applying PCA on Face Dataset, features are reduced to 100(Each image became 10x10)
-  ![PCA on Face Dataset](images/pca_face_dataset.png)
-**Note : To know more refer to this PDF [Exercise 7.pdf](pdfs/ex7.pdf)**
+  ![PCA on Face Dataset](https://github.com/kushagra414/Machine-Learning-Models/blob/master/images/pca_face_dataset.png)<br>
+**Note : To know more refer to this PDF [Exercise 7.pdf](https://github.com/kushagra414/Machine-Learning-Models/blob/master/pdfs/ex7.pdf)**
 
 
 ___
