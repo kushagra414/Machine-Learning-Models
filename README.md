@@ -51,6 +51,7 @@ Algorithm used -
     - Anomaly Detection Algorithm
 ___
 ## Models
+**Note : Run files with name starting from "main" to execute the project!.**<br>
 1. Predicting Profits as a function of Population<br>
 __About Dataset__ -<br>
 - The dataset consists of profits for a food truck with population from various cities.<br>
