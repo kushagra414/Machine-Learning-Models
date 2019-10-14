@@ -85,7 +85,7 @@ ___
 
 ![Train Data](https://github.com/kushagra414/Machine-Learning-Models/blob/master/images/admission_data.png)<br>
 - Logistic Regresison Model
-![]![Logistic Regression](https://github.com/kushagra414/Machine-Learning-Models/blob/master/images/lr.png)<br>
+![Logistic Regression](https://github.com/kushagra414/Machine-Learning-Models/blob/master/images/lr.png)<br>
 - We used logistic regression with Gradient Descent to find the plane/line that minimizes the squared error cost function on train data.<br>
 ![Logistic Regression](https://github.com/kushagra414/Machine-Learning-Models/blob/master/images/logistic_regression.png)<br>
 **Note : To know more refer to this PDF [Exercise 2.pdf](https://github.com/kushagra414/Machine-Learning-Models/blob/master/pdfs/ex2.pdf)**
