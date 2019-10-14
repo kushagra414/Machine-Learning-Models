@@ -216,7 +216,7 @@ ___
 
 
 8. **Anomaly Detection and Recommender System.**<br>
-  1. Anomaly Detection System
+  **1. Anomaly Detection System.**
     - Train Dataset is Unlabelled.
     - CV Dataset is Labelled.
     - In Anomaly detection algorithm we are assuming our data set be Gaussian     Distributed.
@@ -230,7 +230,7 @@ ___
       ![Contour Plot](images/countour_gausssian.png)
     - Predicting Anomalies in Train Dataset.
       ![Anomalies](images/classified_anomalies.png)<br>
-  2. Recommender System
+  **2. Recommender System.**
      __About Dataset__ -<br>
       - This dataset consists of ratings on a scale of 1 to 5.<br>
       - Matrix Y of shape no_of_users*no_of_movies, on y-axis --> Movie, on x-axis ---> User and each element of matrix is Rating from 1-5.<br>
