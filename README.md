@@ -52,7 +52,7 @@ Algorithm used -
 ___
 ## Models
 **Note : Run files with name starting from "main" to execute the project!.**<br>
-1. Predicting Profits as a function of Population<br>
+1. **Predicting Profits as a function of Population.**<br>
 __About Dataset__ -<br>
 - The dataset consists of profits for a food truck with population from various cities.<br>
 - Attributes/Columns in data: 2<br>
@@ -73,7 +73,7 @@ __About Dataset__ -<br>
 ___
 
 
-2. Predicting whether an applicant will be admitted in University with given marks.<br>
+2. **Predicting whether an applicant will be admitted in University with given marks.**<br>
    __About Dataset__ -<br>
 - The dataset consists of data from previous applicants.<br>
 - Attributes/Columns in data: 3<br>
@@ -94,7 +94,7 @@ ___
 ___
 
 
-3. Recognizing handwritten digits (from 0 to 9) using logistic Regression and Neural Networks.<br>
+3. **Recognizing handwritten digits (from 0 to 9) using logistic Regression and Neural Networks.**<br>
    __About Dataset__ -<br>
 - The dataset consists of 5000 training examples where each example is 20 pixel by 20 pixel grayscale image of the digit.<br>
 - Attributes/Columns in data: 400<br>
@@ -111,7 +111,7 @@ ___
 ___
 
 
-4. Recognizing handwritten digits (from 0 to 9) using Neural Networks.<br>
+4. **Recognizing handwritten digits (from 0 to 9) using Neural Networks.**<br>
    __About Dataset__ -<br>
 - The dataset consists of 5000 training examples where each example is 20 pixel by 20 pixel grayscale image of the digit.<br>
 - Attributes/Columns in data: 400<br>
@@ -127,7 +127,7 @@ ___
 ___
 
 
-5. Understanding Importance of Regularization and Bias v.s. Variance.<br>
+5. **Understanding Importance of Regularization and Bias v.s. Variance.**<br>
    __About Dataset__ -<br>
 - The dataset consists of the change of water level in a reservoir and corresponding amount of water flowing out of a dam.<br>
 - Attributes/Columns in data: 2<br>
@@ -154,7 +154,7 @@ ___
 ___
 
 
-6. Spam Mail Classifier<br>
+6. **Spam Mail Classifier.**<br>
 In processEmail.m, we have implemented the following email preprocessing and normalization steps:-
    - **Lower-casing:**
 The entire email is converted into lower case, so
@@ -190,7 +190,7 @@ An example of a sample email -
 ___
 
 
-7. Implement K-means algorithm and use it for image compression and implement PCA on face data set.
+7. **Implement K-means algorithm and use it for image compression and implement PCA on face data set.**<br>
 - K-means an unsupervised learning Algorithm and we will use it to compress a image.<br>
 - Steps in k-means Algorithm
     - Randomly select centroid
@@ -215,8 +215,8 @@ ___
 ___
 
 
-1. Anomaly Detection and Recommender System
-2. Anomaly Detection System
+8. **Anomaly Detection and Recommender System.**<br>
+1. Anomaly Detection System
   - Train Dataset is Unlabelled.
   - CV Dataset is Labelled.
   - In Anomaly detection algorithm we are assuming our data set be Gaussian     Distributed.
