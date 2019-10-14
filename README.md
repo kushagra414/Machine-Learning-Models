@@ -215,4 +215,28 @@ ___
 ___
 
 
-8. Anomaly Detection and Recommender Systems
+1. Anomaly Detection and Recommender System
+2. Anomaly Detection System
+  - Train Dataset is Unlabelled.
+  - CV Dataset is Labelled.
+  - In Anomaly detection algorithm we are assuming our data set be Gaussian     Distributed.
+    ![Probability](/images/gaussain_probability.png)
+  - We will find Outliers(Anomalies) in Train Dataset by finding a Threshold from CV Data.
+  - We use F1 score to find correct Threshold.
+  - After determining Threshold, we will classify Anomalous Servers using the     threshold.
+  - Here is an example of Toy Data set which has only 2 features.
+    ![Toy Dataset](/images/network_data.png)
+  - Contour plot of Gaussian Distribution.
+    ![Contour Plot](images/countour_gausssian.png)
+  - Predicting Anomalies in Train Dataset.
+    ![Anomalies](images/classified_anomalies.png)<br>
+2. Recommender System
+   __About Dataset__ -<br>
+    - This dataset consists of ratings on a scale of 1 to 5.<br>
+    - Matrix Y of shape no_of_users*no_of_movies, on y-axis --> Movie, on x-axis ---> User and each element of matrix is Rating from 1-5.<br>
+    ![](/images/movie_rating_Y.png)<br>
+    - Matrix R of shape no_of_users*no_of_movies, on y-axis --> Movie, on x-axis ---> User and each element of matrix is movie Rated(1) or not(0).<br>
+    ![](/images/movie_rating_R.png)<br>
+    - The dataset is available in .mat file which can be easily loaded in MATLAB/Octave environment<br>
+  - We will implement the collaborative filtering learning algorithm and apply it to a dataset of movie ratings.<br>
+  ![Recommended Movie](images/movie_recommendation.png)
